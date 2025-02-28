@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600&display=swap');
+
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Sticky Navigation Bar - Improved */
+header {
+    background-color: #222; /* Darker background for better contrast */
+    color: white;
+    padding: 20px 50px; /* Increase padding for better spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px; /* Increase spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Slightly bigger font for better visibility */
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #6EC1E4; /* Highlight color on hover */
+}
+
+/* Add spacing so content doesn't go under navbar */
+body {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 70px; /* Prevents content from hiding under the navbar */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+/* Hero Section - Improved */
+.hero {
+    text-align: center;
+    padding: 150px 20px; /* Increased padding for better spacing */
+    background-color: #f9f9f9; /* Lighter background for a softer feel */
+}
+
+.hero h2 {
+    font-size: 36px; /* Bigger, more prominent title */
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555; /* Slightly darker text for better readability */
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #6EC1E4; /* Primary color from ThePropMate */
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; /* Rounded button */
+    font-size: 16px;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect */
+.btn:hover {
+    background-color: #54595F; /* Secondary color from ThePropMate */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Footer - Improved */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a; /* Darker for contrast */
+    color: white;
+    font-size: 14px;
+}
