@@ -64,44 +64,47 @@ nav ul li a {
     font-size: 16px;
 }
 
-/* Hero Section - Two Column Layout */
+/* Hero Section - Improved Alignment */
 .hero {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 100px 10%;
-    background-color: #5F7462; /* ThePropMate background color */
+    justify-content: center;
+    padding: 100px 8%; /* Reduce padding for better centering */
+    background-color: #5F7462;
 }
 
 /* Left Side - Text */
 .hero-text {
     flex: 1;
-    max-width: 50%;
+    max-width: 45%; /* Increase text width slightly */
     color: white;
+    text-align: left;
+    margin-right: -30px; /* Move text closer to the image */
 }
 
 .hero-text h2 {
     font-size: 42px;
-    margin-bottom: 10px;
+    margin-bottom: 20px; /* Increase space below heading */
     font-weight: 600;
     font-family: 'Quicksand', sans-serif;
 }
 
 .hero-text p {
-    font-size: 18px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.8; /* Improve line spacing for readability */
+    margin-bottom: 25px;
 }
 
 /* Right Side - Image */
 .hero-image {
     flex: 1;
-    text-align: center;
+    text-align: right; /* Move image more to the right */
+    margin-left: 50px; /* Push image slightly off-center */
 }
 
 .hero-image img {
-    width: 80%;
-    border-radius: 5px; /* Optional: Rounded corners */
-    background-color: rgba(255, 255, 255, 0.1); /* Light background for visibility */
+    width: 85%; /* Slightly increase image size */
+    border-radius: 5px;
 }
 
 .btn {
